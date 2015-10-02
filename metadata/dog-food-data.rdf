@@ -1,0 +1,782 @@
+<rdf:RDF
+    xmlns:cnr="http://data.cnr.it/functions/"
+    xmlns:dcterms="http://purl.org/dc/terms/creator"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:eswc-owl="http://www.ontologydesignpatterns.org/ont/eswc/ontology.owl#"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:icaltzd="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#" > 
+  <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-mannheim">
+    <foaf:member rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <foaf:name>University of Mannheim</foaf:name>
+    <rdfs:label>University of Mannheim</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7">
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <dc:title>CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction</dc:title>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <rdfs:label>CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction</rdfs:label>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
+    <swrc:month>May</swrc:month>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swrc:abstract></swrc:abstract>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7/authorList"/>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swrc:year>2015</swrc:year>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3">
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:00:00Z</icaltzd:dtstart>
+    <icaltzd:uid>ecv20nbc0jsq0uee9bnjb197mk@google.com</icaltzd:uid>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:30:00Z</icaltzd:dtend>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:01:49Z</icaltzd:created>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1"/>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <icaltzd:description>Lei Zhang, Cong Liu and Achim Rettinger.</icaltzd:description>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:25Z</icaltzd:lastModified>
+    <icaltzd:summary>Research | A Topic-Sensitive Model for Salient Entity Linking </icaltzd:summary>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#main_conference">
+    <icaltzd:prodid>-//Google Inc//Google Calendar 70.9054//EN</icaltzd:prodid>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
+    <icaltzd:calscale>GREGORIAN</icaltzd:calscale>
+    <icaltzd:version>2.0</icaltzd:version>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7"/>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vcalendar"/>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6"/>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8"/>
+    <icaltzd:method>PUBLISH</icaltzd:method>
+    <icaltzd:component rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/anna-lisa-gentile">
+    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-sheffield-uk"/>
+    <foaf:lastName>Gentile</foaf:lastName>
+    <foaf:firstName>Anna Lisa</foaf:firstName>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <rdfs:label>Anna Lisa Gentile</rdfs:label>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/anca-dumitrache">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Dumitrache</foaf:lastName>
+    <foaf:firstName>Anca</foaf:firstName>
+    <foaf:name>Anca Dumitrache</foaf:name>
+    <rdfs:label>Anca Dumitrache</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5">
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3"/>
+    <icaltzd:summary>Research | Semantic Relation Composition in Large Scale Knowledge Bases</icaltzd:summary>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:41Z</icaltzd:lastModified>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:03:18Z</icaltzd:created>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:uid>6qn80t9g85uvdoooftrhjjbbv4@google.com</icaltzd:uid>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:00:00Z</icaltzd:dtend>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T15:30:00Z</icaltzd:dtstart>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:description>Kristian Kolthoff and Arnab Dutta.</icaltzd:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015">
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/keynote/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/katja-hose">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Hose</foaf:lastName>
+    <foaf:firstName>Katja</foaf:firstName>
+    <rdfs:label>Katja Hose</rdfs:label>
+    <foaf:name>Katja Hose</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/varish-mulwad">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Mulwad</foaf:lastName>
+    <foaf:firstName>Varish</foaf:firstName>
+    <rdfs:label>Varish Mulwad</rdfs:label>
+    <foaf:name>Varish Mulwad</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/arnab-dutta">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Dutta</foaf:lastName>
+    <foaf:firstName>Arnab</foaf:firstName>
+    <foaf:name>Arnab Dutta</foaf:name>
+    <rdfs:label>Arnab Dutta</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/keynote-speaker">
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <rdfs:label>Keynote speaker</rdfs:label>
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Presenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/pablo-mendes">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Mendes</foaf:lastName>
+    <foaf:firstName>Pablo</foaf:firstName>
+    <rdfs:label>Pablo Mendes</rdfs:label>
+    <foaf:name>Pablo Mendes</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/tim-finin">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Finin</foaf:lastName>
+    <foaf:firstName>Tim</foaf:firstName>
+    <foaf:name>Tim Finin</foaf:name>
+    <rdfs:label>Tim Finin</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4">
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
+    <swrc:abstract></swrc:abstract>
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <dc:title>Semantic Annotation of Quantitative Textual Content</dc:title>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/mehrnaz-ghashghaei"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/mehrnaz-ghashghaei"/>
+    <rdfs:label>Semantic Annotation of Quantitative Textual Content</rdfs:label>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/ali-ghorbani"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/ali-ghorbani"/>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4/authorList"/>
+    <swrc:year>2015</swrc:year>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
+    <swrc:month>May</swrc:month>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-bari">
+    <foaf:member rdf:resource="http://data.semanticweb.org/person/claudia-damato"/>
+    <foaf:name>University of Bari</foaf:name>
+    <rdfs:label>University of Bari</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/andrea-giovanni-nuzzolese">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Nuzzolese</foaf:lastName>
+    <foaf:firstName>Andrea Giovanni</foaf:firstName>
+    <rdfs:label>Andrea Giovanni Nuzzolese</rdfs:label>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/heiko-paulheim">
+    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-mannheim"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Paulheim</foaf:lastName>
+    <foaf:firstName>Heiko</foaf:firstName>
+    <rdfs:label>Heiko Paulheim</rdfs:label>
+    <foaf:name>Heiko Paulheim</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/victoria-uren">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Uren</foaf:lastName>
+    <foaf:firstName>Victoria</foaf:firstName>
+    <rdfs:label>Victoria Uren</rdfs:label>
+    <foaf:name>Victoria Uren</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/chair">
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ziqi-zhang"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/claudia-damato"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/anna-lisa-gentile"/>
+    <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <rdfs:label>Chair</rdfs:label>
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Chair"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/christopher-brewster">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Brewster</foaf:lastName>
+    <foaf:firstName>Christopher</foaf:firstName>
+    <rdfs:label>Christopher Brewster</rdfs:label>
+    <foaf:name>Christopher Brewster</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/john-cuzzola">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Cuzzola</foaf:lastName>
+    <foaf:firstName>John</foaf:firstName>
+    <foaf:name>John Cuzzola</foaf:name>
+    <rdfs:label>John Cuzzola</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7/authorList">
+    <rdf:_3 rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/brian-davis">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Davis</foaf:lastName>
+    <foaf:firstName>Brian</foaf:firstName>
+    <rdfs:label>Brian Davis</rdfs:label>
+    <foaf:name>Brian Davis</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/keynote/1">
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Europe/Ljubljana#tz">2015-06-03T10:30:00</icaltzd:dtend>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Europe/Ljubljana#tz">2015-06-03T09:30:00</icaltzd:dtstart>
+    <icaltzd:description></icaltzd:description>
+    <rdfs:label>Invited Talk: Chris Welty</rdfs:label>
+    <icaltzd:summary>Invited Talk: Chris Welty</icaltzd:summary>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015"/>
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/disheng-qiu">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Qiu</foaf:lastName>
+    <foaf:firstName>Disheng</foaf:firstName>
+    <rdfs:label>Disheng Qiu</rdfs:label>
+    <foaf:name>Disheng Qiu</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/will-radford">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Radford</foaf:lastName>
+    <foaf:firstName>Will</foaf:firstName>
+    <rdfs:label>Will Radford</rdfs:label>
+    <foaf:name>Will Radford</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6">
+    <icaltzd:description>Heiko Paulheim.</icaltzd:description>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:04:01Z</icaltzd:created>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:00:00Z</icaltzd:dtstart>
+    <icaltzd:uid>dq0d4i00ndh35hp6ssijocvqrc@google.com</icaltzd:uid>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:56Z</icaltzd:lastModified>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:30:00Z</icaltzd:dtend>
+    <icaltzd:summary>Plenary | IE challenge</icaltzd:summary>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/petr-knoth">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Knoth</foaf:lastName>
+    <foaf:firstName>Petr</foaf:firstName>
+    <rdfs:label>Petr Knoth</rdfs:label>
+    <foaf:name>Petr Knoth</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/author">
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/mehrnaz-ghashghaei"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/achim-rettinger"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
+    <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
+    <rdfs:label>Paper author</rdfs:label>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/eswc/ontology.owl#Author"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ali-ghorbani"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/giuseppe-rizzo">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Rizzo</foaf:lastName>
+    <foaf:firstName>Giuseppe</foaf:firstName>
+    <rdfs:label>Giuseppe Rizzo</rdfs:label>
+    <foaf:name>Giuseppe Rizzo</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/lei-zhang-1">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Zhang</foaf:lastName>
+    <foaf:firstName>Lei</foaf:firstName>
+    <foaf:name>Lei Zhang</foaf:name>
+    <rdfs:label>Lei Zhang</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3">
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <swrc:year>2015</swrc:year>
+    <rdfs:label>Semantic Relation Composition in Large Scale Knowledge Bases</rdfs:label>
+    <swrc:abstract></swrc:abstract>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <dc:title>Semantic Relation Composition in Large Scale Knowledge Bases</dc:title>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3/authorList"/>
+    <swrc:month>May</swrc:month>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/rabeeh-ayaz-abbasi">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Abbasi</foaf:lastName>
+    <foaf:firstName>Rabeeh Ayaz</foaf:firstName>
+    <rdfs:label>Rabeeh Ayaz Abbasi</rdfs:label>
+    <foaf:name>Rabeeh Ayaz Abbasi</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1">
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/achim-rettinger"/>
+    <swrc:year>2015</swrc:year>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
+    <swrc:abstract></swrc:abstract>
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <dc:title>A Topic-Sensitive Model for Salient Entity Linking</dc:title>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/achim-rettinger"/>
+    <rdfs:label>A Topic-Sensitive Model for Salient Entity Linking</rdfs:label>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
+    <swrc:month>May</swrc:month>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/keynote/1">
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4/authorList">
+    <rdf:_4 rdf:resource="http://data.semanticweb.org/person/ali-ghorbani"/>
+    <rdf:_3 rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/mehrnaz-ghashghaei"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/ali-ghorbani">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Ghorbani</foaf:lastName>
+    <foaf:firstName>Ali</foaf:firstName>
+    <foaf:name>Ali Ghorbani</foaf:name>
+    <rdfs:label>Ali Ghorbani</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7">
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T19:15:00Z</icaltzd:dtend>
+    <icaltzd:description>Goodbye to True: Advancing semantics beyond the black and white.
+Chris Welty, Google Research</icaltzd:description>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:uid>2l7a5duv5ina9b5a8fofftgjdk@google.com</icaltzd:uid>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:summary>Plenary | Invited talk: Chris Welty </icaltzd:summary>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:01:17Z</icaltzd:lastModified>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:07:36Z</icaltzd:created>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T18:00:00Z</icaltzd:dtstart>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/christina-feilmayr">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Feilmayr</foaf:lastName>
+    <foaf:firstName>Christina</foaf:firstName>
+    <rdfs:label>Christina Feilmayr</rdfs:label>
+    <foaf:name>Christina Feilmayr</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1">
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:description>Anca Dumitrache, Lora Aroyo and Chris Welty. </icaltzd:description>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T13:00:00Z</icaltzd:dtstart>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T09:46:55Z</icaltzd:created>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:summary>Research | CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction</icaltzd:summary>
+    <icaltzd:uid>817b4icma6mkao4j5jjf2hhu2o@google.com</icaltzd:uid>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T13:30:00Z</icaltzd:dtend>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</icaltzd:sequence>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T11:59:57Z</icaltzd:lastModified>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/ernesto-william-de-luca">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>De Luca</foaf:lastName>
+    <foaf:firstName>Ernesto William</foaf:firstName>
+    <rdfs:label>Ernesto William De Luca</rdfs:label>
+    <foaf:name>Ernesto William De Luca</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/lora-aroyo">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Aroyo</foaf:lastName>
+    <foaf:firstName>Lora</foaf:firstName>
+    <foaf:name>Lora Aroyo</foaf:name>
+    <rdfs:label>Lora Aroyo</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/anupam-joshi">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Joshi</foaf:lastName>
+    <foaf:firstName>Anupam</foaf:firstName>
+    <foaf:name>Anupam Joshi</foaf:name>
+    <rdfs:label>Anupam Joshi</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/jennifer-sleeman">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Sleeman</foaf:lastName>
+    <foaf:firstName>Jennifer</foaf:firstName>
+    <foaf:name>Jennifer Sleeman</foaf:name>
+    <rdfs:label>Jennifer Sleeman</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8">
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T19:15:00Z</icaltzd:dtstart>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <icaltzd:description>Closing remarks and best paper Award announcment</icaltzd:description>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:08:17Z</icaltzd:created>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:uid>96a4bh66arosfhfed2uu76kt08@google.com</icaltzd:uid>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:01:23Z</icaltzd:lastModified>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:summary>Plenary | Closing and Awards</icaltzd:summary>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</icaltzd:sequence>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T19:30:00Z</icaltzd:dtend>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/ebrahim-bagheri">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Bagheri</foaf:lastName>
+    <foaf:firstName>Ebrahim</foaf:firstName>
+    <foaf:name>Ebrahim Bagheri</foaf:name>
+    <rdfs:label>Ebrahim Bagheri</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/ziqi-zhang">
+    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-sheffield-uk"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Zhang</foaf:lastName>
+    <foaf:firstName>Ziqi</foaf:firstName>
+    <rdfs:label>Ziqi Zhang</rdfs:label>
+    <foaf:name>Ziqi Zhang</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2">
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
+    <rdfs:label>Topic Modeling for RDF Graphs</rdfs:label>
+    <swrc:year>2015</swrc:year>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2/authorList"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
+    <swrc:abstract></swrc:abstract>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
+    <dc:title>Topic Modeling for RDF Graphs</dc:title>
+    <swrc:month>May</swrc:month>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/volker-tresp">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Tresp</foaf:lastName>
+    <foaf:firstName>Volker</foaf:firstName>
+    <rdfs:label>Volker Tresp</rdfs:label>
+    <foaf:name>Volker Tresp</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/pierpaolo-basile">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Basile</foaf:lastName>
+    <foaf:firstName>Pierpaolo</foaf:firstName>
+    <rdfs:label>Pierpaolo Basile</rdfs:label>
+    <foaf:name>Pierpaolo Basile</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member">
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/pablo-mendes"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/christina-feilmayr"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/disheng-qiu"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andrea-giovanni-nuzzolese"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/martin-riedl"/>
+    <rdfs:label>Program committee member</rdfs:label>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/volker-tresp"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/varish-mulwad"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/victoria-uren"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ziqi-zhang"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/payam-barnaghi"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/miriam-fernandez"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/craig-knoblock"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/will-radford"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ernesto-william-de-luca"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/christopher-brewster"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/simone-paolo-ponzetto"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andrea-moro"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/giuseppe-rizzo"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/pierpaolo-basile"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/monika-solanki"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/claudia-damato"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/katja-hose"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/rabeeh-ayaz-abbasi"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jay-pujara"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/matthias-nickles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/matthias-nickles">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Nickles</foaf:lastName>
+    <foaf:firstName>Matthias</foaf:firstName>
+    <rdfs:label>Matthias Nickles</rdfs:label>
+    <foaf:name>Matthias Nickles</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/mehrnaz-ghashghaei">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Ghashghaei</foaf:lastName>
+    <foaf:firstName>Mehrnaz</foaf:firstName>
+    <foaf:name>Mehrnaz Ghashghaei</foaf:name>
+    <rdfs:label>Mehrnaz Ghashghaei</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1/authorList">
+    <rdf:_3 rdf:resource="http://data.semanticweb.org/person/achim-rettinger"/>
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/martin-riedl">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Riedl</foaf:lastName>
+    <foaf:firstName>Martin</foaf:firstName>
+    <rdfs:label>Martin Riedl</rdfs:label>
+    <foaf:name>Martin Riedl</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-sheffield-uk">
+    <foaf:member rdf:resource="http://data.semanticweb.org/person/ziqi-zhang"/>
+    <foaf:member rdf:resource="http://data.semanticweb.org/person/anna-lisa-gentile"/>
+    <foaf:name>University of Sheffield</foaf:name>
+    <rdfs:label>University of Sheffield</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/achim-rettinger">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Rettinger</foaf:lastName>
+    <foaf:firstName>Achim</foaf:firstName>
+    <foaf:name>Achim Rettinger</foaf:name>
+    <rdfs:label>Achim Rettinger</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/chris-welty">
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:firstName>Chris</foaf:firstName>
+    <foaf:lastName>Welty</foaf:lastName>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <rdfs:label>Chris Welty</rdfs:label>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/keynote-speaker"/>
+    <foaf:name>Chris Welty</foaf:name>
+    <foaf:made rdf:resource="http://data.semanticweb.org/keynote/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/simone-paolo-ponzetto">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Ponzetto</foaf:lastName>
+    <foaf:firstName>Simone Paolo</foaf:firstName>
+    <rdfs:label>Simone Paolo Ponzetto</rdfs:label>
+    <foaf:name>Simone Paolo Ponzetto</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/monika-solanki">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Solanki</foaf:lastName>
+    <foaf:firstName>Monika</foaf:firstName>
+    <rdfs:label>Monika Solanki</rdfs:label>
+    <foaf:name>Monika Solanki</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2/authorList">
+    <rdf:_3 rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/">
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7"/>
+    <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2">
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:16Z</icaltzd:lastModified>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
+    <icaltzd:summary>Research | Semantic Annotation of Quantitative Textual Content</icaltzd:summary>
+    <icaltzd:description>Mehrnaz Ghashghaei, John Cuzzola, Ebrahim Bagheri and Ali Ghorbani.</icaltzd:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:00:00Z</icaltzd:dtend>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T13:30:00Z</icaltzd:dtstart>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:uid>ri9oe6lcndmbii7j2mehclqu2o@google.com</icaltzd:uid>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:01:21Z</icaltzd:created>
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/jay-pujara">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Pujara</foaf:lastName>
+    <foaf:firstName>Jay</foaf:firstName>
+    <rdfs:label>Jay Pujara</rdfs:label>
+    <foaf:name>Jay Pujara</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/kristian-kolthoff">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Kolthoff</foaf:lastName>
+    <foaf:firstName>Kristian</foaf:firstName>
+    <foaf:name>Kristian Kolthoff</foaf:name>
+    <rdfs:label>Kristian Kolthoff</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/claudia-damato">
+    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-bari"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>D'Amato</foaf:lastName>
+    <foaf:firstName>Claudia</foaf:firstName>
+    <rdfs:label>Claudia D'Amato</rdfs:label>
+    <foaf:name>Claudia D'Amato</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/andrea-moro">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Moro</foaf:lastName>
+    <foaf:firstName>Andrea</foaf:firstName>
+    <rdfs:label>Andrea Moro</rdfs:label>
+    <foaf:name>Andrea Moro</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3/authorList">
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/miriam-fernandez">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Fernandez</foaf:lastName>
+    <foaf:firstName>Miriam</foaf:firstName>
+    <rdfs:label>Miriam Fernandez</rdfs:label>
+    <foaf:name>Miriam Fernandez</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4">
+    <icaltzd:status>CONFIRMED</icaltzd:status>
+    <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:02:43Z</icaltzd:created>
+    <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:31Z</icaltzd:lastModified>
+    <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T15:30:00Z</icaltzd:dtend>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T15:00:00Z</icaltzd:dtstart>
+    <icaltzd:uid>rlofdvrkt3tmr48533jbsgqt48@google.com</icaltzd:uid>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:description>Jennifer Sleeman, Tim Finin and Anupam Joshi.</icaltzd:description>
+    <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <icaltzd:location>Room RBC 271</icaltzd:location>
+    <icaltzd:summary>Research | Topic Modeling for RDF Graphs </icaltzd:summary>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/payam-barnaghi">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Barnaghi</foaf:lastName>
+    <foaf:firstName>Payam</foaf:firstName>
+    <rdfs:label>Payam Barnaghi</rdfs:label>
+    <foaf:name>Payam Barnaghi</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/cong-liu">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Liu</foaf:lastName>
+    <foaf:firstName>Cong</foaf:firstName>
+    <foaf:name>Cong Liu</foaf:name>
+    <rdfs:label>Cong Liu</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/craig-knoblock">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Knoblock</foaf:lastName>
+    <foaf:firstName>Craig</foaf:firstName>
+    <rdfs:label>Craig Knoblock</rdfs:label>
+    <foaf:name>Craig Knoblock</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/paul-buitelaar">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:lastName>Buitelaar</foaf:lastName>
+    <foaf:firstName>Paul</foaf:firstName>
+    <rdfs:label>Paul Buitelaar</rdfs:label>
+    <foaf:name>Paul Buitelaar</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+</rdf:RDF>
