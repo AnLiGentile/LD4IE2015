@@ -22,7 +22,6 @@
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7">
-    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
     <dc:title>CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction</dc:title>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/anca-dumitrache"/>
@@ -30,18 +29,18 @@
     <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
     <rdfs:label>CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction</rdfs:label>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
-    <swrc:month>May</swrc:month>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
-    <swrc:abstract></swrc:abstract>
+    <swrc:abstract>A widespread use of linked data for information extraction is distant supervision, in which relation tuples from a data source are found in sentences in a text corpus, and those sentences are treated as training data for relation extraction systems. Distant supervision is a cheap way to acquire training data, but that data can be quite noisy, which limits the performance of a system trained with it. Human annotators can be used to clean the data, but in some domains, such as medical NLP, it is widely believed that only medical experts can do this reliably. We have been investigating the use of crowdsourcing as an affordable alternative to using experts to clean noisy data, and have found that with the proper analysis, crowds can rival and even out-perform the precision and recall of experts, at a much lower cost. We have further found that the crowd, by virtue of its diversity, can help us find evidence of ambiguous sentences that are difficult to classify, and we have hypothesized that such sentences are likely just as difficult for machines to classify. In this paper we outline CrowdTruth, a previously presented method for scoring ambiguous sentences that suggests that existing modes of truth are inadequate, and we present for the first time a set of weighted metrics for evaluating the performance of experts, the crowd, and a trained classifier in light of ambiguity. We show that our theory of truth and our metrics are a more powerful way to evaluate NLP performance over traditional unweighted metrics like precision and recall, because they allow us to account for the rather obvious fact that some sentences express the target relations more clearly than others.</swrc:abstract>
     <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7/authorList"/>
     <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
+    <swrc:month>2015</swrc:month>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
     <swrc:year>2015</swrc:year>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3">
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:00:00Z</icaltzd:dtstart>
     <icaltzd:uid>ecv20nbc0jsq0uee9bnjb197mk@google.com</icaltzd:uid>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:30:00Z</icaltzd:dtend>
     <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:01:49Z</icaltzd:created>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
@@ -54,6 +53,7 @@
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:25Z</icaltzd:lastModified>
     <icaltzd:summary>Research | A Topic-Sensitive Model for Salient Entity Linking </icaltzd:summary>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#main_conference">
     <icaltzd:prodid>-//Google Inc//Google Calendar 70.9054//EN</icaltzd:prodid>
@@ -79,6 +79,19 @@
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/InvitedTalk">
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <swrc:year>2015</swrc:year>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/InvitedTalk/authorList"/>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7"/>
+    <swrc:month>2015</swrc:month>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <rdfs:label>Goodbye to True: Advancing Semantics beyond the Black and White</rdfs:label>
+    <dc:title>Goodbye to True: Advancing Semantics beyond the Black and White</dc:title>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <swrc:abstract>The set-theoretic notion of truth proposed by Tarski is the basis of most work in machine semantics and probably has its roots in the work and influence of Aristotle. We take it for granted that the world can be described, not in shades of grey, but in terms of statements and propositions that are either true or false - and it seems most of western science stands on the same principle. This assumption at the core of our training as scientists should be questioned, because it stands in direct opposition to our human experience. Is there any statement that can be made that can actually be reduced to true or false? Only, it seems, in the artificial human-created realms of mathematics, games, and logic. We have been investigating a different mode of truth, inspired by results in Crowdsourcing, which allows for a highly dimension notion of semantic interpretation that makes true and false look like a childish simplifying assumption.</swrc:abstract>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/anca-dumitrache">
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
     <foaf:lastName>Dumitrache</foaf:lastName>
@@ -97,10 +110,10 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:41Z</icaltzd:lastModified>
     <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:03:18Z</icaltzd:created>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
     <icaltzd:uid>6qn80t9g85uvdoooftrhjjbbv4@google.com</icaltzd:uid>
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:00:00Z</icaltzd:dtend>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T15:30:00Z</icaltzd:dtstart>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <icaltzd:transp>OPAQUE</icaltzd:transp>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
     <icaltzd:description>Kristian Kolthoff and Arnab Dutta.</icaltzd:description>
@@ -160,9 +173,10 @@
     <dc:creator rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
     <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
-    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <swrc:abstract>Semantic annotation techniques provide the basis for linking textual content with concepts in well grounded knowledge bases. In spite of their many application areas, current semantic annotation systems have some limitations. One of the prominent limitations of such systems is that none of the existing semantic annotator systems are able to identify and disambiguate quantitative (numerical) content. In textual documents such as Web pages, specially technical contents, there are many quantitative information such as product specifications that need to be semantically qualified. In this paper, we propose an approach for annotating quantitative values in short textual content. In our approach, we identify numeric values in the text and link them to an existing property in a knowledge base. Based on this mapping, we are then able to find the concept that the property is associated with; whereby, identifying both the concept and the specific property of that concept that the numeric value belongs to. Our experiments show that our proposed approach is able to reach an accuracy of over 70% for semantically annotating quantitative content.</swrc:abstract>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
-    <swrc:abstract></swrc:abstract>
+    <swrc:month>2015</swrc:month>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
     <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
     <dc:title>Semantic Annotation of Quantitative Textual Content</dc:title>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/mehrnaz-ghashghaei"/>
@@ -173,7 +187,6 @@
     <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4/authorList"/>
     <swrc:year>2015</swrc:year>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
-    <swrc:month>May</swrc:month>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-bari">
     <foaf:member rdf:resource="http://data.semanticweb.org/person/claudia-damato"/>
@@ -189,15 +202,26 @@
     <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/person/robert-meusel">
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <foaf:lastName>Meusel</foaf:lastName>
+    <foaf:firstName>Robert</foaf:firstName>
+    <foaf:name>Robert Meusel</foaf:name>
+    <rdfs:label>Robert Meusel</rdfs:label>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/heiko-paulheim">
-    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-mannheim"/>
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
-    <foaf:lastName>Paulheim</foaf:lastName>
-    <foaf:firstName>Heiko</foaf:firstName>
     <rdfs:label>Heiko Paulheim</rdfs:label>
     <foaf:name>Heiko Paulheim</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
+    <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-mannheim"/>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge"/>
+    <foaf:lastName>Paulheim</foaf:lastName>
+    <foaf:firstName>Heiko</foaf:firstName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/victoria-uren">
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
@@ -250,7 +274,7 @@
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/keynote/1">
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Europe/Ljubljana#tz">2015-06-03T10:30:00</icaltzd:dtend>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Europe/Ljubljana#tz">2015-06-03T09:30:00</icaltzd:dtstart>
-    <icaltzd:description></icaltzd:description>
+    <icaltzd:description>Goodbye to True: Advancing Semantics beyond the Black and White</icaltzd:description>
     <rdfs:label>Invited Talk: Chris Welty</rdfs:label>
     <icaltzd:summary>Invited Talk: Chris Welty</icaltzd:summary>
     <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015"/>
@@ -275,17 +299,18 @@
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6">
     <icaltzd:description>Heiko Paulheim.</icaltzd:description>
     <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <icaltzd:summary>Plenary | Creating Large-scale Training and Test Corpora for Extracting Structured Data from the Web </icaltzd:summary>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
     <icaltzd:transp>OPAQUE</icaltzd:transp>
     <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:04:01Z</icaltzd:created>
     <icaltzd:location>Room RBC 271</icaltzd:location>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:00:00Z</icaltzd:dtstart>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge"/>
     <icaltzd:uid>dq0d4i00ndh35hp6ssijocvqrc@google.com</icaltzd:uid>
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:56Z</icaltzd:lastModified>
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T16:30:00Z</icaltzd:dtend>
-    <icaltzd:summary>Plenary | IE challenge</icaltzd:summary>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8"/>
     <icaltzd:status>CONFIRMED</icaltzd:status>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/petr-knoth">
@@ -312,6 +337,8 @@
     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
     <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/eswc/ontology.owl#Author"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/robert-meusel"/>
+    <swc:heldBy rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ali-ghorbani"/>
     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-cuzzola"/>
     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ebrahim-bagheri"/>
@@ -333,19 +360,34 @@
     <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge">
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/robert-meusel"/>
+    <swrc:abstract>For making the web of linked data grow, information extraction methods are a good alternative for manual dataset curation, since there is an abundance of semi-structured and unstructured information which can be harvested that way. At the same time, existing structured data sets can be used for training and evaluating such information extraction systems. In this paper, we introduce a method for creating training and test corpora from websites annotated with structured data. Using different classes in schema.org and websites annotated with Microdata, we show how training and test data can be curated at large scale and across various domains. Furthermore, we discuss how negative examples can be generated as well as open challenges and future directs for this kind of training data curation.</swrc:abstract>
+    <swrc:month>2015</swrc:month>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/robert-meusel"/>
+    <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge/authorList"/>
+    <foaf:maker rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <dc:title>Creating Large-scale Training and Test Corpora for Extracting Structured Data from the Web</dc:title>
+    <rdfs:label>Creating Large-scale Training and Test Corpora for Extracting Structured Data from the Web</rdfs:label>
+    <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6"/>
+    <dc:creator rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+    <swrc:year>2015</swrc:year>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3">
     <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
     <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
+    <swrc:abstract>Semantic relation composition is a generalized approach for finding conjunctive relation paths in a knowledge base (KB). In semantic web, direct and inverse relationships between entities provide us with ample of explicit knowledge. But there is a plethora of implicit knowledge beyond these direct paths. Consider a knowledge graph, we can achieve deeper insights about a particular entity if we consider the information shared by its neighboring entities via its adjacent relation paths of arbitrary lengths. In this paper, we devise a technique to automatically discover semantically enriched conjunctive relations in a KB. Our approach is generalized for any KB and requires no additional parameter tuning. Particularly, we employ classical rule mining techniques to perform relation composition on knowledge graphs to learn first order rules. We evaluate our proposed methodology on two state of the art information extraction systems, DBpedia and Yago with promising results in terms of generating high precision rules. Furthermore, we make the rules publicly available for community usage.</swrc:abstract>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <swrc:month>2015</swrc:month>
     <swrc:year>2015</swrc:year>
     <rdfs:label>Semantic Relation Composition in Large Scale Knowledge Bases</rdfs:label>
-    <swrc:abstract></swrc:abstract>
-    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
-    <dc:title>Semantic Relation Composition in Large Scale Knowledge Bases</dc:title>
     <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/3/authorList"/>
-    <swrc:month>May</swrc:month>
+    <dc:title>Semantic Relation Composition in Large Scale Knowledge Bases</dc:title>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/arnab-dutta"/>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/kristian-kolthoff"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/rabeeh-ayaz-abbasi">
@@ -362,15 +404,15 @@
     <swrc:year>2015</swrc:year>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/lei-zhang-1"/>
-    <swrc:abstract></swrc:abstract>
+    <swrc:month>2015</swrc:month>
+    <swrc:abstract>In recent years, the amount of entities in large knowledge bases available on the Web has been increasing rapidly. Such entities can be used to bridge textual data with knowledge bases and thus help with many tasks, such as text understanding, word sense disambiguation and information retrieval. The key issue is to link the entity mentions in documents with the corresponding entities in knowledge bases, referred to as entity linking. In addition, for many entity-centric applications, entity salience for a document has become a very important factor. This raises an impending need to identify a set of salient entities that are central to the input document. In this paper, we introduce a new task of salient entity linking and propose a graph-based disambiguation solution, which integrates several features, especially a topic-sensitive model based on Wikipedia categories. Experimental results show that our method significantly outperforms the state-of-the-art entity linking methods in terms of precision, recall and F-measure.</swrc:abstract>
     <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
-    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
     <dc:title>A Topic-Sensitive Model for Salient Entity Linking</dc:title>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/achim-rettinger"/>
     <rdfs:label>A Topic-Sensitive Model for Salient Entity Linking</rdfs:label>
     <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/cong-liu"/>
-    <swrc:month>May</swrc:month>
     <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/1/authorList"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/keynote/1">
@@ -397,11 +439,12 @@
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T19:15:00Z</icaltzd:dtend>
     <icaltzd:description>Goodbye to True: Advancing semantics beyond the black and white.
 Chris Welty, Google Research</icaltzd:description>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8"/>
     <icaltzd:uid>2l7a5duv5ina9b5a8fofftgjdk@google.com</icaltzd:uid>
     <icaltzd:location>Room RBC 271</icaltzd:location>
+    <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/InvitedTalk"/>
     <icaltzd:transp>OPAQUE</icaltzd:transp>
-    <icaltzd:summary>Plenary | Invited talk: Chris Welty </icaltzd:summary>
+    <icaltzd:summary>Plenary | Goodbye to True: Advancing Semantics beyond the Black and White </icaltzd:summary>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:01:17Z</icaltzd:lastModified>
     <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
@@ -420,7 +463,7 @@ Chris Welty, Google Research</icaltzd:description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1">
     <icaltzd:status>CONFIRMED</icaltzd:status>
     <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <icaltzd:description>Anca Dumitrache, Lora Aroyo and Chris Welty. </icaltzd:description>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T13:00:00Z</icaltzd:dtstart>
     <icaltzd:transp>OPAQUE</icaltzd:transp>
@@ -479,9 +522,11 @@ Chris Welty, Google Research</icaltzd:description>
     <icaltzd:uid>96a4bh66arosfhfed2uu76kt08@google.com</icaltzd:uid>
     <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:01:23Z</icaltzd:lastModified>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7"/>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
     <icaltzd:summary>Plenary | Closing and Awards</icaltzd:summary>
     <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</icaltzd:sequence>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6"/>
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T19:30:00Z</icaltzd:dtend>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
   </rdf:Description>
@@ -508,15 +553,15 @@ Chris Welty, Google Research</icaltzd:description>
     <eswc-owl:isPresented rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
     <rdfs:label>Topic Modeling for RDF Graphs</rdfs:label>
     <swrc:year>2015</swrc:year>
-    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/proceedings"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
     <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/2/authorList"/>
+    <swrc:month>2015</swrc:month>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
-    <swrc:abstract></swrc:abstract>
+    <swrc:abstract>Topic models are widely used to thematically describe a collection of text documents and have become an important technique for systems that measure document similarity for classification, clustering, segmentation, entity linking and more. While they have been applied to some non-text domains, their use for semi-structured graph data, such as RDF, has been less explored. We present a framework for applying topic modeling to RDF graph data and describe how it can be used in a number of linked data tasks. Since topic modeling builds abstract topics using the co-occurrence of document terms, sparse documents can be problematic, presenting challenges for RDF data. We outline techniques to overcome this problem and the results of experiments in using them. Finally, we show preliminary results of using Latent Dirichlet Allocation generative topic modeling for several linked data use cases.</swrc:abstract>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/jennifer-sleeman"/>
     <dc:title>Topic Modeling for RDF Graphs</dc:title>
-    <swrc:month>May</swrc:month>
+    <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015//proceedings"/>
     <dc:creator rdf:resource="http://data.semanticweb.org/person/anupam-joshi"/>
     <foaf:maker rdf:resource="http://data.semanticweb.org/person/tim-finin"/>
     <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
@@ -528,6 +573,11 @@ Chris Welty, Google Research</icaltzd:description>
     <rdfs:label>Volker Tresp</rdfs:label>
     <foaf:name>Volker Tresp</foaf:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/IEchallenge/authorList">
+    <rdf:_2 rdf:resource="http://data.semanticweb.org/person/heiko-paulheim"/>
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/robert-meusel"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/pierpaolo-basile">
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
@@ -622,6 +672,7 @@ Chris Welty, Google Research</icaltzd:description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/chris-welty">
     <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/7"/>
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
+    <foaf:made rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/InvitedTalk"/>
     <foaf:firstName>Chris</foaf:firstName>
     <foaf:lastName>Welty</foaf:lastName>
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/author"/>
@@ -655,28 +706,37 @@ Chris Welty, Google Research</icaltzd:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/">
     <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#dq0d4i00ndh35hp6ssijocvqrc@google.com_6"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
+    <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+    <rdfs:label>The 3rd International Workshop on Linked Data for Information Extraction</rdfs:label>
+    <swc:hasAcronym>LD4IE2015</swc:hasAcronym>
     <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#96a4bh66arosfhfed2uu76kt08@google.com_8"/>
-    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#2l7a5duv5ina9b5a8fofftgjdk@google.com_7"/>
+    <icaltzd:summary>The 3rd International Workshop on Linked Data for Information Extraction</icaltzd:summary>
+    <icaltzd:description>The 3rd International Workshop on Linked Data for Information Extraction</icaltzd:description>
+    <icaltzd:dtend>2015-10-12T15:30:00</icaltzd:dtend>
     <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/chair"/>
+    <swc:address>Bethlehem, Pennsylvania - USA</swc:address>
+    <swc:hasLocation>Bethlehem, Pennsylvania - USA</swc:hasLocation>
+    <icaltzd:dtstart>2015-10-12T09:00:00</icaltzd:dtstart>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2">
     <icaltzd:lastModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:00:16Z</icaltzd:lastModified>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <icaltzd:transp>OPAQUE</icaltzd:transp>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#817b4icma6mkao4j5jjf2hhu2o@google.com_1"/>
     <eswc-owl:presents rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/4"/>
     <icaltzd:summary>Research | Semantic Annotation of Quantitative Textual Content</icaltzd:summary>
     <icaltzd:description>Mehrnaz Ghashghaei, John Cuzzola, Ebrahim Bagheri and Ali Ghorbani.</icaltzd:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
     <icaltzd:location>Room RBC 271</icaltzd:location>
     <icaltzd:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T14:00:00Z</icaltzd:dtend>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#rlofdvrkt3tmr48533jbsgqt48@google.com_4"/>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T13:30:00Z</icaltzd:dtstart>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ecv20nbc0jsq0uee9bnjb197mk@google.com_3"/>
     <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <icaltzd:uid>ri9oe6lcndmbii7j2mehclqu2o@google.com</icaltzd:uid>
     <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#6qn80t9g85uvdoooftrhjjbbv4@google.com_5"/>
     <icaltzd:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T10:01:21Z</icaltzd:created>
     <icaltzd:status>CONFIRMED</icaltzd:status>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
@@ -708,6 +768,10 @@ Chris Welty, Google Research</icaltzd:description>
     <foaf:name>Claudia D'Amato</foaf:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.semanticweb.org/conference/ld4ie/2015/paper/research/InvitedTalk/authorList">
+    <rdf:_1 rdf:resource="http://data.semanticweb.org/person/chris-welty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.semanticweb.org/person/andrea-moro">
     <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/program-committee-member"/>
     <foaf:lastName>Moro</foaf:lastName>
@@ -737,7 +801,7 @@ Chris Welty, Google Research</icaltzd:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
     <icaltzd:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-12T15:00:00Z</icaltzd:dtstart>
     <icaltzd:uid>rlofdvrkt3tmr48533jbsgqt48@google.com</icaltzd:uid>
-    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/"/>
+    <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/ld4ie/2015/talk/#ri9oe6lcndmbii7j2mehclqu2o@google.com_2"/>
     <icaltzd:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-02T12:03:03Z</icaltzd:dtstamp>
     <icaltzd:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</icaltzd:sequence>
     <icaltzd:description>Jennifer Sleeman, Tim Finin and Anupam Joshi.</icaltzd:description>
